@@ -1,0 +1,138 @@
+1. Using Insert Function, give examples of any function available in the different dropdowns present in the function library.
+   For example AutoSum, Recently Used, Text, Date & Time, etc.
+
+Sol: 
+
+1.AutoSum (Formulas dropdown):
+
+SUM: Adds up a range of cells.
+AVERAGE: Calculates the average of a range of cells.
+COUNT: Counts the number of cells that contain numbers in a range.
+MAX: Returns the maximum value from a range of cells.
+MIN: Returns the minimum value from a range of cells.
+Recently Used (Formulas dropdown):
+
+2.IF: Checks whether a condition is met and returns one value if true and another value if false.
+VLOOKUP: Searches for a value in the first column of a range and returns a corresponding value from another column.
+CONCATENATE: Joins two or more text strings into one.
+INDEX: Returns the value of a cell in a specified row and column of a range.
+MATCH: Searches for a specified item in a range of cells and returns its relative position.
+Text (Text dropdown):
+
+3.LEFT: Extracts a specified number of characters from the beginning of a text string.
+RIGHT: Extracts a specified number of characters from the end of a text string.
+LEN: Returns the number of characters in a text string.
+CONCAT: Joins two or more text strings into one.
+PROPER: Capitalizes the first letter of each word in a text string.
+Date & Time (Date & Time dropdown):
+
+4.TODAY: Returns the current date.
+NOW: Returns the current date and time.
+DATE: Returns the serial number of a particular date.
+YEAR: Returns the year of a specified date.
+MONTH: Returns the month of a specified date.
+
+
+2.What are the different ways you can select columns and rows?
+
+Sol:  The different ways you can select columns and rows:
+
+1.Mouse Selection:
+
+a)Columns: Click on the column header (the lettered row at the top) of the desired column. The entire column will be selected.
+b)Rows: Click on the row header (the numbered column at the left) of the desired row. The entire row will be selected.
+
+2.Keyboard Shortcuts:
+
+a)Columns: Use the Shift key along with the arrow keys to extend the selection. For example, press Shift+Right Arrow to select multiple
+   columns to the right.
+b)Rows: Use the Shift key along with the arrow keys to extend the selection. For example, press Shift+Down Arrow to select multiple rows below.
+
+3.Select All:
+
+a)Columns: Press Ctrl+Spacebar to select the entire column where the active cell is located.
+b)Rows: Press Shift+Spacebar to select the entire row where the active cell is located.
+
+
+3.What is AutoFit and why do we use it?
+
+Sol: AutoFit is a feature available in spreadsheet software like Microsoft Excel and Google Sheets. It allows we to automatically 
+     adjust the width of a column or the height of a row to fit the contents within it.
+
+a)Fit Content: When you have cell contents that are too long or wide for the default column or row width, using AutoFit ensures that the content 
+  is fully visible without being truncated. 
+
+b)Enhanced Readability: By using AutoFit, you can optimize the layout of your spreadsheet for better readability. 
+
+
+4.How can you insert new rows and columns into the existing table?
+
+Sol: Inserting a New Row:-
+
+1.Select the row below which you want to insert the new row. Click on the row number on the left side to select the entire row.
+2.Right-click on the selected row and choose the "Insert" or Insert Row option from the context menu. Alternatively, we can also go 
+  to the "Insert" tab in the toolbar and click on the Insert Sheet Rows button.
+3.A new row will be inserted above the selected row, pushing the existing rows downward.we can start entering data or formulas in the newly inserted row.
+
+Inserting a New Column:-
+
+1.Select the column to the right of which you want to insert the new column. Click on the column letter at the top to select the entire column.
+2.Right-click on the selected column and choose the Insert or Insert Column option from the context menu. Alternatively, we can go to the 
+  Insert tab in the toolbar and click on the "Insert Sheet Columns" button.
+3.A new column will be inserted to the left of the selected column, shifting the existing columns to the right.we can begin entering data or 
+  formulas in the newly inserted column.
+
+
+5.How do you hide and unhide columns in excel?
+
+Sol:Hiding Columns:-
+
+1.Select the column(s) that you want to hide. You can do this by clicking on the column header(s) at the top of the spreadsheet. To select 
+  multiple columns, hold down the Ctrl key while clicking on the desired column headers.
+2.Right-click on any selected column header, and from the context menu, choose Hide or Hide Columns. Alternatively, we can go to the Home
+  tab in the toolbar, click on the Format dropdown in the Cells group, and choose Hide & Unhide and then Hide Columns.
+3.The selected columns will be hidden, and the remaining columns will shift to the left to fill the gap. The hidden columns will not be
+   visible on the spreadsheet.
+
+Unhiding Columns:
+
+1.Select the columns adjacent to the hidden columns. For example, if we have hidden columns C and D, select columns B and E.
+2.Right-click on any selected column header, and from the context menu, choose Unhide or Unhide Columns. Alternatively, go to
+ the Home tab in the toolbar, click on the "Format" dropdown in the "Cells" group, choose "Hide & Unhide" and then Unhide Columns.
+3.The hidden columns will be displayed again, appearing between the adjacent columns we selected.
+
+
+6.Create an appropriate table within the worksheet and use different functions available in the AutoSum command.
+
+Sol: An example of an appropriate table within a worksheet where we can use different functions available in the AutoSum command:-
+
+  A	B	C	   D
+Item	Price	Quantity   Total
+Apple	1.5	10	   =B2*C2
+Banana	0.8	15	   =B3*C3
+Orange	2.0	8	   =B4*C4
+Total			   =SUM(D2:D4)
+
+
+ In this example, we have a table with four columns: "Item," "Price," "Quantity," and "Total." The "Total" column uses the AutoSum command to 
+ calculate the product of the Price and Quantity for each item.
+
+To use different functions available in the AutoSum command:-
+
+1.Select cell D2, which is the first cell in the "Total" column.
+2.Click on the AutoSum button (∑) in the toolbar or go to the "Formulas" tab and click on the "AutoSum" dropdown in the "Editing" group.
+3.By default, AutoSum selects the adjacent cells above the active cell (in this case, cells D2 and D3).
+4.Press Enter to apply the SUM function, which sums the values in cells D2 and D3.
+5.Cell D4 will display the total value calculated by the SUM function.
+6.we can also use different AutoSum functions by clicking on the drop-down arrow next to the AutoSum button in the toolbar.
+7.Some commonly used functions available in AutoSum include AVERAGE, COUNT, MAX, MIN, and more.
+
+
+
+
+
+
+
+
+
+
